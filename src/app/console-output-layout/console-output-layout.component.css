@@ -1,0 +1,5 @@
+textarea {
+  width: 100%;
+  height: content-box;
+  box-sizing: border-box;
+}

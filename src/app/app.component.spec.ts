@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'zxspectrum-cv'`, () => {
+  it(`should have as title 'terminal-cv'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('zxspectrum-cv');
+    expect(app.title).toEqual('terminal-cv');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('zxspectrum-cv app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('terminal-cv app is running!');
   });
 });

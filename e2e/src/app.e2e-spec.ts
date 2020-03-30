@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('zxspectrum-cv app is running!');
+    expect(page.getTitleText()).toEqual('terminal-cv app is running!');
   });
 
   afterEach(async () => {
